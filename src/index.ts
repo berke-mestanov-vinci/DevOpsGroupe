@@ -14,4 +14,8 @@ app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
 
+app.get('/berke', (_req, res) => {
+  res.send('Route de Berke !');
+});
+
 export default app;
