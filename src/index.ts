@@ -16,6 +16,7 @@ app.listen(port, () => {
 
 app.get('/berke', (_req, res) => {
   res.send('Route de Berke !');
+  res.send('Route de Alpay !');
 });
 
 export default app;
